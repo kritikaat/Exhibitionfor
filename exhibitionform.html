@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+ <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form for IPR Scientific Visit</title>
+    <link rel="stylesheet" href="iprpage2.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Exhibition Form for IPR Scientific Visit</h1>
+
+        <div class="progress-container">
+            <div class="circle active">1</div>
+            <div class="bar active"></div>
+            <div class="circle">2</div>
+            <div class="bar "></div>
+            <div class="circle">3</div>
+            <div class="bar"></div>
+            <div class="circle">4</div>
+            <div class="bar"></div>
+            <div class="circle ">5</div>
+            <div class="bar "></div>
+            <div class="circle">6</div>
+            <div class="bar "></div>
+            <div class="circle">7</div>
+            <div class="bar"></div>
+            <div class="circle">8</div>
+            <div class="bar"></div>
+            <div class="circle">9</div>
+        </div>
+        
+
+        <!-- Form Section -->
+        <div class="form-section">
+            <h2>Hall for Exhibition</h2>
+            <form action="exhibitionform2.html">
+                <label for="institution-name">Dimension of the hall (LxB in meters) <span class="required">*</span></label>
+                <input type="text" id="institution-name" name="institution-name" value="LDRP Institute of Technology and Research" required>
+                <p class="instruction">	Dimension of the hall (LxB in meters)
+                                    	As large as possible (Min 15mx15m)	    
+                                        Size available : 15m X 10m</p>
+
+                <label for="Student-branch">Is it an enclosed hall?<span class="required">*</span></label>
+                <input type="text" id="Student-branch" name="Student-branch" required>
+                <p class="instruction">Enclosed hall required for safety</p>
+
+                <label for="Student-sem">Can the hall be darkened with curtains?<span class="required">*</span></label>
+                <input type="number" id="Student-sem" name="Student-sem" required>
+                <p class="instruction">Can the hall be darkened with curtains?
+                     	Hall should be dark to be able to see plasma properly. 
+                        Either dark curtains or black paper covering over windows should be done.</p>
+
+                <label for="institution-name">Does the hall have A/C or fans?<span class="required">*</span></label>
+                <input type="text" id="institution-name" name="institution-name" value="LDRP Institute of Technology and Research" required>
+                <p class="instruction">Cooling is required to keep working models cool</p>
+        
+                <label for="Student-branch">Is it on the ground floor?<span class="required">*</span></label>              
+                <input type="text" id="Student-branch" name="Student-branch" required>
+                <p class="instruction">Preferably on ground floor so that exhibits can be unloaded and taken to hall from truck. 
+                    If exhibition hall is on the upper floor, then additional labour will be required for quick transfer of exhibits to the hall.</p>
+        
+                <label for="Student-sem">Is there a storage space for empty exhibit boxes?<span class="required">*</span></label>
+                <input type="number" id="Student-sem" name="Student-sem" required>             
+                <p class="instruction">Preferably on ground floor so that exhibits can be unloaded and taken to hall from truck. 
+                    If exhibition hall is on the upper floor, then additional labour will be required for quick transfer of exhibits to the hall.</p>
+
+                <label for="Student-sem"><label for="Student-sem">Can the hall be darkened with curtains?<span class="required">*</span></label>
+                <input type="number" id="Student-sem" name="Student-sem" required>
+                <p class="instruction">Preferably on ground floor so that exhibits can be unloaded and taken to hall from truck. 
+                    If exhibition hall is on the upper floor, then additional labour will be required for quick transfer of exhibits to the hall.</p>
+    
+                <label for="institution-name">No. of 230V (5/15A) power outlets in the hall<span class="required">*</span></label>                    
+                <input type="text" id="institution-name" name="institution-name" value="LDRP Institute of Technology and Research" required>
+                <p class="instruction">We will need minimum 30 no’s of 230V/5A, grounded power outlets.</p>
+            
+                <label for="Student-branch">Tables for placing the exhibits<span class="required">*</span></label>              
+                <input type="text" id="Student-branch" name="Student-branch" required>
+                <p class="instruction">Sturdy, flat-top tables with wooden top and dark cloth cover (typical size 1.0x 0.5m or bigger) : 35 numbers and 20 chairs</p>
+            
+                <label for="Student-sem">Space for VR<span class="required">*</span></label>
+                <input type="number" id="Student-sem" name="Student-sem" required>                                 
+                <p class="instruction">Min 3m x 3m for one VR exhibit
+                        If more space is made available, up to 4 VR exhibits can be operater.</p>
+
+                <label for="Student-sem">WiFi Acess<span class="required">*</span></label>
+                <input type="number" id="Student-sem" name="Student-sem" required>
+                <p class="instruction">WiFi access to all IPR team members for running VR exhibits and for performing office duties during the event.</p>
+
+               <div class="buttons">
+                <button type="button" onclick="window.history.back();" class="back-btn">Back</button>
+                    <button type="submit" class="next-btn">Next</button>
+                </div>
+            </form>
+        </div>
+
+    </div>
+    <script src="validateForm.js"></script>
+</body>
+</html>
+

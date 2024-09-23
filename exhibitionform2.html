@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form for IPR Scientific Visit</title>
+    <link rel="stylesheet" href="iprpage3.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Exhibition Form for IPR Scientific Visit</h1>
+
+        <div class="progress-container">
+            <div class="circle active">1</div>
+            <div class="bar active"></div>
+            <div class="circle active">2</div>
+            <div class="bar active"></div>
+            <div class="circle">3</div>
+            <div class="bar"></div>
+            <div class="circle">4</div>
+            <div class="bar"></div>
+            <div class="circle ">5</div>
+            <div class="bar "></div>
+            <div class="circle">6</div>
+            <div class="bar "></div>
+            <div class="circle">7</div>
+            <div class="bar"></div>
+            <div class="circle">8</div>
+            <div class="bar"></div>
+            <div class="circle">9</div>
+        </div>
+
+        <div class="form-section">
+            <h2>Hall for lectures/quiz/Tokotoy competition</h2>
+           
+            <form action="exhibitionform3.html">
+                
+                 
+                        <label for="Students">Area of the hall<span class="required">*</span></label>
+                        <input type="number" id="Students" name="Students" required>
+                        <p class="instruction">Should be able to comfortably seat </p>
+                
+                    
+                        <label for="Faculty">Seating capcity <span class="required">*</span></label>
+                        <input type="number" id="female-members" name="Faculty" value="10" required>
+                        <p class="instruction">Should be able to comfortably seat minimum 50  people, 
+                            with tables for conducting training programme, quiz and Tokotoy competition. </p>
+
+                        <label for="Faculty">Does the hall have A/V facilities <span class="required">*</span></label>
+                        <input type="number" id="female-members" name="Faculty" value="10" required>
+                        <p class="instruction">Requires digital projector (HDMI input) and audio system </p>
+
+                        <label for="Faculty">Distance of lecture hall from exhibition hall<span class="required">*</span></label>
+                        <input type="number" id="female-members" name="Faculty" value="10" required>
+                        <p class="instruction">As close to exhibition hall as possible </p>
+                    
+                
+
+                <div class="buttons">
+                    <button type="button" onclick="window.history.back();" class="back-btn">Back</button>   
+                    <button type="submit" class="next-btn">Next</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="validateGroupForm.js"></script>
+</body>
+</html>
